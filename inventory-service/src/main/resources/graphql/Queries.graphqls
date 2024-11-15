@@ -1,0 +1,4 @@
+type Query {
+    getAllVideos : [Video]
+    creatorById(id :Float) : Creator
+}
